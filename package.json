@@ -1,0 +1,16 @@
+{
+  "name": "esm-babel-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Raine Virta <raine.virta@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@std/esm": "^0.5.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-register": "^6.26.0"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true
+  }
+}
